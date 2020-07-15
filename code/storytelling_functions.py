@@ -5,10 +5,9 @@ import seaborn as sns
 
 from bokeh.io import output_notebook, show, curdoc
 from bokeh.plotting import figure
-from bokeh.models import HoverTool, ColumnDataSource, Axis
+from bokeh.models import HoverTool, ColumnDataSource, Axis, Dropdown
 from bokeh.models.widgets import Panel, Tabs
 from bokeh.layouts import widgetbox, row
-from bokeh.models import Slider
 
 def get_df_p_in_ab(target_variable, lst):
     
